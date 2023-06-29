@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio Developer</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/@lottiefiles/lottie-player"></script>
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Edit your portfolio</a></li>
+      <li><a href="#">Source code</a></li>
+      <li><a href="#">Send Pull request</a></li>
+      <li><a href="#">Example portfolio</a></li>
+    </ul>
+  </div>
+  <div class="container">
+    <h1>OpenSource Portfolio Developer</h1>
+    <div class="explanation-section">
+      <div class="explanation-item">
+        <lottie-player src="{{ url_for('static', filename='animations/explain1.json') }}" background="transparent" speed="1" style="width: 300px; height: 200px;" loop autoplay></lottie-player>
+        <h3>Upload Your Resume</h3>
+      </div>
+      <div class="explanation-item">
+        <lottie-player src="{{ url_for('static', filename='animations/explanation.json') }}" background="transparent" speed="1" style="width: 300px; height: 200px;" loop autoplay></lottie-player>
+        <h3>Data gets Extracted from resume and Development Starts</h3>
+      </div>
+      <div class="explanation-item">
+        <lottie-player src="{{ url_for('static', filename='animations/explain3.json') }}" background="transparent" speed="1" style="width: 300px; height: 200px;" loop autoplay></lottie-player>
+        <h3>Get Your Free deployed link of Streamlit</h3>
+      </div>
+    </div>
+    
+    <div class="upload-form">
+      <input type="file" id="resume-upload" class="file-input" accept=".pdf">
+      <label for="resume-upload" id="file-label" class="file-label"></label>
+    </div>
+    <button id="upload-button" class="upload-button"><h3>Upload Your Resume</h3></button>
+  </div>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume Extraction Result</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1 class="result-title">Resume Extraction Result</h1>
+    <div id="result-container" class="result-container">
+      <pre id="result-data" class="result-data">{{ extracted_data | tojson | safe }}</pre>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

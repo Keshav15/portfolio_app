@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #3498db;
+  padding: 20px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  background-color: #2980b9;
+  border-radius: 5px;
+}
+
+/* Explanation Section Styles */
+.explanation-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.explanation-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.explanation-image {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+/* Result Page Styles */
+.result-container {
+  margin-top: 40px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.result-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.result-data {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow-x: auto;
+}
