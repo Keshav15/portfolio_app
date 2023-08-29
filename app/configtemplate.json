@@ -1,0 +1,44 @@
+{
+"name": "",
+"about": "",
+"email": "",
+"experience": [
+{
+"company": "",
+"jobtype": "",
+"position": "",
+"duration": "",
+"description": ""
+}
+],
+"projects": [
+{
+"title": "",
+"description": "",
+"image": "",
+"lottie_url": "",
+"repository": "",
+"demo": ""
+}
+],
+"blogs": [
+{
+"title": "",
+"excerpt": "",
+"publication_date": "",
+"url": "",
+"image_path": ""
+}
+],
+"techstack_skills": [
+{
+"category": "",
+"skills": []
+}
+],
+"social_links": {
+"linkedin_url": "",
+"github_url": "",
+"twitter_url": ""
+}
+}

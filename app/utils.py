@@ -13,7 +13,7 @@ def extract_resume_data(filename):
         for page_number in range(num_pages):
             page = reader.pages[page_number]
             text = page.extract_text()
-            
+            data[page_number]=text
             # Extract the necessary fields from the text and populate the data dictionary
             
     return data

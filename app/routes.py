@@ -25,12 +25,13 @@ def upload():
         return jsonify({'error': 'No file selected'}), 400
     
     if resume and allowed_file(resume.filename):
+        
         filename = secure_filename(resume.filename)
         temp_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         resume.save(temp_path)
         
         extracted_data = extract_resume_data(temp_path)
-        
+        print(extracted_data)
         os.remove(temp_path)
         
         return jsonify(extracted_data), 200
