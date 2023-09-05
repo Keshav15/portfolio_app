@@ -5,7 +5,7 @@ import json
 import os
 from app import app
 from app.utils import allowed_file, extract_resume_data
-
+from app.llmapi import formatdata
 from poe_api_wrapper import Poe
 from poe_api_wrapper import PoeApi
 import json
@@ -16,11 +16,6 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 client = PoeApi(token)
 with open("/home/keshav/Desktop/portfolio_app/app/configtemplate.json","r") as configfile:
     config_data=json.load(configfile)
-
-
-
-
-
 
 @app.route('/')
 def index():
@@ -43,18 +38,10 @@ def upload():
         resume.save(temp_path)
         
         extracted_data = extract_resume_data(temp_path)
-        print(extracted_data)
-        
-        bot = "chinchilla"
-        message = f"This is my resume data {extracted_data} and I want this data to be in this json format{config_data}  so just convert that data into this format.. and please give me just json as output.. and dont add anything extratext as I would directly store this in some jsonfile"
+        required_data=formatdata(extracted_data)
 
-        # Create new chat thread
-        # Streamed example:
-        for chunk in client.send_message(bot, message):
-            pass
-        print(chunk["text"])
         os.remove(temp_path)
         
-        return jsonify(extracted_data), 200
+        return jsonify(required_data), 200
     
     return jsonify({'error': 'Invalid file type'}), 400
