@@ -1,0 +1,116 @@
+{
+  "name": "Keshav Bajaj",
+  "about": "Experienced Big Data Engineer with certifications in Deep Learning, Machine Learning, and AWS.",
+  "email": "keshavbajaj4444@gmail.com",
+  "experience": [
+    {
+      "company": "Abzooba-UST global",
+      "jobtype": "Big Data Engineer",
+      "position": "May 2022-Present",
+      "description": "Developed a generic framework in Python, Pandas, and Numpy to flatten and transform JSON data, specifically for Healthcare resources (FHIR data). Created an end-to-end AWS plugin using AWS Lambda, S3, and SQS to implement the framework. Utilized Pyspark to create Glue jobs for transforming raw upstream data into Parquet format. This involved writing ETL scripts to ensure efficient and accurate data processing. Assisted senior QA developer with data validation testing."
+    },
+    {
+      "company": "CDAC",
+      "jobtype": "Machine learning Intern",
+      "position": "June 2021 - August 2021",
+      "description": "Developed an application utilizing LSTM and Siamese Network to determine the semantic similarity between two sentences. Conducted a comprehensive review of multiple NLP-based techniques and models, including LSTM, T5, BERT, GPT2, and SBERT, to enhance the accuracy of semantic similarity identification. Successfully deployed the application end-to-end using Docker and AWS Beanstalk, ensuring seamless deployment and scalability."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Opensource Portfolio Developer",
+      "description": "Created a portfolio generation application using BERT model and PDF data extraction. Enabled users to generate insightful portfolios from their resumes. Demonstrated skills in web development and NLP.",
+      "image": "",
+      "lottie_url": "",
+      "repository": "",
+      "demo": ""
+    },
+    {
+      "title": "Image Super-Resolution using Autoencoders",
+      "description": "Implemented image super-resolution using autoencoders in Keras with TensorFlow. Trained the model on diverse datasets, specializing in car images. Proficient in deep learning, computer vision, and image processing.",
+      "image": "",
+      "lottie_url": "",
+      "repository": "",
+      "demo": ""
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Structured vs Unstructured Ward in Hierarchical Clustering Using Scikit Learn",
+      "excerpt": "",
+      "publication_date": "",
+      "url": "",
+      "image_path": ""
+    },
+    {
+      "title": "Comparing Different Clustering Algorithms on Toy Datasets in Scikit Learn",
+      "excerpt": "",
+      "publication_date": "",
+      "url": "",
+      "image_path": ""
+    },
+    {
+      "title": "Analyzing Decision Tree and K-means Clustering using Iris dataset",
+      "excerpt": "",
+      "publication_date": "",
+      "url": "",
+      "image_path": ""
+    }
+  ],
+  "techstack_skills": [
+    {
+      "category": "Languages",
+      "skills": [
+        "Python",
+        "C++"
+      ]
+    },
+    {
+      "category": "Frameworks",
+      "skills": [
+        "TensorFlow",
+        "PyTorch",
+        "Flask"
+      ]
+    },
+    {
+      "category": "Databases",
+      "skills": [
+        "MySQL",
+        "AWS DynamoDB",
+        "MongoDB"
+      ]
+    },
+    {
+      "category": "Cloud",
+      "skills": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "skills": [
+        "Machine Learning",
+        "Deep Learning",
+        "NLP",
+        "Computer Vision",
+        "AWS Lambda",
+        "Glue",
+        "Beanstalk",
+        "SageMaker",
+        "Git",
+        "GitHub",
+        "CI/CD",
+        "Docker",
+        "Kubernetes"
+      ]
+    }
+  ],
+  "social_links": {
+    "linkedin_url": "linkedin.com/in/keshavbajaj44",
+    "github_url": "",
+    "twitter_url": ""
+  }
+}
