@@ -36,6 +36,13 @@
   ],
   "blogs": [
     {
+      "title": "",
+      "excerpt": "",
+      "publication_date": "",
+      "url": "",
+      "image_path": ""
+    },
+    {
       "title": "Structured vs Unstructured Ward in Hierarchical Clustering Using Scikit Learn",
       "excerpt": "",
       "publication_date": "",
@@ -43,14 +50,7 @@
       "image_path": ""
     },
     {
-      "title": "Comparing Different Clustering Algorithms on Toy Datasets in Scikit Learn",
-      "excerpt": "",
-      "publication_date": "",
-      "url": "",
-      "image_path": ""
-    },
-    {
-      "title": "Analyzing Decision Tree and K-means Clustering using Iris dataset",
+      "title": "Comparing Different Clustering Algorithms on Toy Datasets in Scikit LearnAnalyzing Decision Tree and K-means Clustering using Iris dataset",
       "excerpt": "",
       "publication_date": "",
       "url": "",
