@@ -38,10 +38,10 @@ def upload():
         resume.save(temp_path)
         
         extracted_data = extract_resume_data(temp_path)
-        required_data=formatdata(extracted_data)
-
+        required_link=formatdata(extracted_data)
+        print(required_link)
         os.remove(temp_path)
         
-        return jsonify(required_data), 200
+        return jsonify(required_link), 200
     
     return jsonify({'error': 'Invalid file type'}), 400
