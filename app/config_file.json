@@ -8,20 +8,20 @@
       "jobtype": "Big Data Engineer",
       "position": "May 2022-Present",
       "duration": "",
-      "description": "Developed a generic framework in Python, Pandas, and Numpy to \ufb02atten and transform JSON data, speci\ufb01cally for Healthcare resources (FHIR data). Created an end-to-end AWS plugin using AWS Lambda, S3, and SQS to implement the framework.\nUtilized Pyspark to create Glue jobs for transforming raw upstream data into Parquet format. This involved writing ETL scripts to ensure e\ufb03cient and accurate data processing.\nAssisted senior QA developer with data validation testing."
+      "description": "\u2022Developed a generic framework in Python, Pandas, and Numpy to flatten and transform JSON data, specifically for Healthcare resources (FHIR data). Created an end-to-end AWS plugin using AWS Lambda, S3, and SQS to implement the framework.\n\u2022Utilized Pyspark to create Glue jobs for transforming raw upstream data into Parquet format. This involved writing ETL scripts to ensure efficient and accurate data processing.\n\u2022Assisted senior QA developer with data validation testing."
     },
     {
       "company": "CDAC",
       "jobtype": "Machine learning Intern",
       "position": "June 2021 - August 2021",
       "duration": "",
-      "description": "Developed an application utilizing LSTM and Siamese Network to determine the semantic similarity between two sentences.\nConducted a comprehensive review of multiple NLP-based techniques and models, including LSTM, T5, BERT, GPT2, and SBERT, to enhance the accuracy of semantic similarity identi\ufb01cation.\nSuccessfully deployed the application end-to-end using Docker and AWS Beanstalk, ensuring seamless deployment and scalability."
+      "description": "\u2022Developed an application utilizing LSTM and Siamese Network to determine the semantic similarity between two sentences.\n\u2022Conducted a comprehensive review of multiple NLP-based techniques and models, including LSTM, T5, BERT, GPT2, and SBERT, to enhance the accuracy of semantic similarity identification.\n\u2022Successfully deployed the application end-to-end using Docker and AWS Beanstalk, ensuring seamless deployment and scalability."
     }
   ],
   "projects": [
     {
       "title": "Opensource Portfolio Developer",
-      "description": "Created a portfolio generation application using BERT model and PDF data extraction.\nEnabled users to generate insightful portfolios from their resumes.\nDemonstrated skills in web development and NLP.",
+      "description": "\u2022    Created a portfolio generation application using BERT model and PDF data extraction.\n\u2022    Enabled users to generate insightful portfolios from their resumes.\n\u2022    Demonstrated skills in web development and NLP .",
       "image": "",
       "lottie_url": "",
       "repository": "",
@@ -29,7 +29,7 @@
     },
     {
       "title": "Image Super-Resolution using Autoencoders",
-      "description": "Implemented image super-resolution using autoencoders in Keras with TensorFlow.\nTrained the model on diverse datasets, specializing in car images.\nPro\ufb01cient in deep learning, computer vision, and image processing.",
+      "description": "\u2022    Implemented image super-resolution using autoencoders in Keras with TensorFlow.\n\u2022    Trained the model on diverse datasets, specializing in car images.\n\u2022    Proficient in deep learning, computer vision, and image processing.",
       "image": "",
       "lottie_url": "",
       "repository": "",
@@ -52,7 +52,14 @@
       "image_path": ""
     },
     {
-      "title": "Comparing Different Clustering Algorithms on Toy Datasets in Scikit LearnAnalyzing Decision Tree and K-means Clustering using Iris dataset",
+      "title": "Comparing Different Clustering Algorithms on Toy Datasets in Scikit Learn",
+      "excerpt": "",
+      "publication_date": "",
+      "url": "",
+      "image_path": ""
+    },
+    {
+      "title": "Analyzing Decision Tree and K-means Clustering using Iris dataset",
       "excerpt": "",
       "publication_date": "",
       "url": "",
