@@ -10,8 +10,8 @@ with open("app/configtemplate.json", "r") as configfile:
     config_data = json.load(configfile)
 
 def formatdata(resumedata):
-    bot = "chinchilla"
-    message = f"This is my resume data {resumedata} and I want this data to be in this json format {config_data} and just plese give me this as json data seperately and send it like json''' ''' in this way.. and plese dont add some extra text in it"
+    bot = "a2"
+    message = f"This is my resume data {resumedata} and I want this data to be in this json format {config_data} and just please give me this as json data seperately and Generate Output  Like     json''' '''       and plesse dont Generate some extra text apart from that"
 
     # Create new chat thread
     # Streamed example:
