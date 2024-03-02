@@ -1,24 +1,25 @@
-from poe_api_wrapper import Poe
-from poe_api_wrapper import PoeApi
 import json
 import re
 from app.createRepo import createrepo
-token = "-AWr3euMgNBkIZzqFvykXw%3D%3D"
+from llmapi import Chatbot #new
 
-client = PoeApi(token)
+
 with open("app/configtemplate.json", "r") as configfile:
     config_data = json.load(configfile)
 
 def formatdata(resumedata):
-    bot = "a2"
-    message = f"This is my resume data {resumedata} and I want this data to be in this json format {config_data} and just please give me this as json data seperately and Generate Output  Like     json''' '''       and plesse dont Generate some extra text apart from that"
+    chatbot = Chatbot()  # Initialize the chatbot
+    chat_message = f"This is my resume data {resume_data} and I want this data to be in this JSON format {config_data} and just please give me this as JSON data separately and Generate Output Like json''' ''' and please don't generate some extra text apart from that"
+
+    chatbot_response = chatbot.send_message(chat_message)  # Send a message to the chatbot #new code
+
 
     # Create new chat thread
     # Streamed example:
 
-    for chunk in client.send_message(bot, message):
-        pass
-    newconfigfile = chunk["text"]
+    # for chunk in client.send_message(bot, message):
+    #     pass
+    # newconfigfile = chunk["text"]
     json_pattern = r'```json(.*?)```'
     json_matches = re.findall(json_pattern, newconfigfile, re.DOTALL)
 
