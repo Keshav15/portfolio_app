@@ -6,15 +6,14 @@ import os
 from app import app
 from app.utils import allowed_file, extract_resume_data
 from app.llmapi import formatdata
-from poe_api_wrapper import Poe
-from poe_api_wrapper import PoeApi
+
 import json
-token = "-AWr3euMgNBkIZzqFvykXw%3D%3D"
+
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-client = PoeApi(token)
-with open("/home/keshav/Desktop/portfolio_app/app/configtemplate.json","r") as configfile:
+
+with open("app/configtemplate.json","r") as configfile:
     config_data=json.load(configfile)
 
 @app.route('/')
